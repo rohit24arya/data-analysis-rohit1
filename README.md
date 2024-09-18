@@ -1,3 +1,5 @@
+**Project-1**
+
 This project focuses on conducting a descriptive analysis of voting decisions made by the Vancouver Council in 2023 and 2024. The goal is to analyze voting patterns, summarize key insights, and visualize the results to inform stakeholders about council voting trends.
 
 **Step 1**: Data Analytical Question Formulation
@@ -113,10 +115,10 @@ This project provides a comprehensive descriptive analysis of the voting decisio
 ![image](https://github.com/user-attachments/assets/eb7675df-bab6-4aff-9bd5-a48822800b3f)
 
 
-****Project-2****
+**Project-2**
 The key objective of this section is to implement a Data Analytics Platform (DAP) that securely manages, monitors, and governs the council voting data. The analysis also focuses on ensuring compliance with data governance standards while diagnosing potential inefficiencies in data workflows.
 
-****Step-1****: **Data Protection**
+**Step-1**: **Data Protection**
 
 **Objective**: Protect sensitive council voting data during storage, processing, and transfer.
 
@@ -142,7 +144,7 @@ c)AWS CloudTrail for logging and auditing activities
 
 ![image](https://github.com/user-attachments/assets/607cbf36-2f32-4d39-afde-f87b4afda0c9)
 
-****Step-2****: **Data Governance**
+**Step-2**: **Data Governance**
 
 **Objective**: Ensure proper data governance by implementing policies that manage data quality, access, and lifecycle.
 
@@ -174,7 +176,7 @@ c)AWS Config for monitoring governance policy compliance
 
 ![image](https://github.com/user-attachments/assets/033f6fbf-d4b3-4e56-9cb9-73489b050c8a)
 
-****Step-2****: **Data Monitoring**
+**Step-3**: **Data Monitoring**
 
 **Objective**: 
 Monitor data pipelines, access control, and data activities in real-time.
