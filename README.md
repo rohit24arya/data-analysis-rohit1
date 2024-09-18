@@ -1,4 +1,3 @@
-# Data-Analysis-Rohit1
 This project focuses on conducting a descriptive analysis of voting decisions made by the Vancouver Council in 2023 and 2024. The goal is to analyze voting patterns, summarize key insights, and visualize the results to inform stakeholders about council voting trends.
 
 Step 1: Data Analytical Question Formulation
