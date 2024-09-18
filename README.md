@@ -124,7 +124,7 @@ The key objective of this section is to implement a Data Analytics Platform (DAP
 
 **Actions Taken**:
 
-a)**Encryption**: All sensitive voting data stored in Amazon S3 is encrypted at rest using AES-256 encryption.
+a)**Encryption**: All sensitive voting data stored in Amazon S3 is encrypted.
 
 b)**Access Control**: Implemented role-based access control (RBAC) using AWS Identity and Access Management (IAM) to restrict access to authorized personnel.
 
