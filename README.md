@@ -112,3 +112,98 @@ This project provides a comprehensive descriptive analysis of the voting decisio
 
 ![image](https://github.com/user-attachments/assets/eb7675df-bab6-4aff-9bd5-a48822800b3f)
 
+
+****Project-2****
+The key objective of this section is to implement a Data Analytics Platform (DAP) that securely manages, monitors, and governs the council voting data. The analysis also focuses on ensuring compliance with data governance standards while diagnosing potential inefficiencies in data workflows.
+
+****Step-1****: **Data Protection**
+
+**Objective**: Protect sensitive council voting data during storage, processing, and transfer.
+
+**Actions Taken**:
+
+a)**Encryption**: All sensitive voting data stored in Amazon S3 is encrypted at rest using AES-256 encryption.
+
+b)**Access Control**: Implemented role-based access control (RBAC) using AWS Identity and Access Management (IAM) to restrict access to authorized personnel.
+
+c)**Audit Logging**: Enabled AWS CloudTrail to log and monitor all access and modifications to voting data for security audits
+
+**Tools**:
+
+a)Amazon S3 for secure data storage.
+
+b)AWS IAM for enforcing access control policies.
+
+c)AWS CloudTrail for logging and auditing activities
+
+![image](https://github.com/user-attachments/assets/dffaa334-4952-4de9-b190-ff134f86a9e0)
+
+![image](https://github.com/user-attachments/assets/a4dfe19d-b8da-473f-9c93-74783bc648ca)
+
+![image](https://github.com/user-attachments/assets/607cbf36-2f32-4d39-afde-f87b4afda0c9)
+
+****Step-2****: **Data Governance**
+
+**Objective**: Ensure proper data governance by implementing policies that manage data quality, access, and lifecycle.
+
+**Actions Taken**:
+
+a)Defined data retention policies for council voting records
+
+b)Utilized AWS Glue Data Catalog to organize and label datasets, enabling structured and secure access to the voting data
+
+c)Established metadata tagging in S3 buckets for better data classification and discovery
+
+**Tools**:
+
+a)AWS Glue Data Catalog for data organization and governance
+
+b)AWS IAM to define data governance roles and permissions
+
+c)AWS Config for monitoring governance policy compliance
+
+![image](https://github.com/user-attachments/assets/aab27d34-abb3-4623-99bd-003652cb9e2e)
+
+![image](https://github.com/user-attachments/assets/2e2c6ce6-1efc-404e-89c9-c52cfe874d68)
+
+![image](https://github.com/user-attachments/assets/d1772725-79c4-4a2d-b9d2-d446495a1150)
+
+![image](https://github.com/user-attachments/assets/f3628e39-d2d3-43d4-acf5-2880d880d88a)
+
+![image](https://github.com/user-attachments/assets/099f84c4-91e3-4ead-a52e-adff14cf4e65)
+
+![image](https://github.com/user-attachments/assets/033f6fbf-d4b3-4e56-9cb9-73489b050c8a)
+
+****Step-2****: **Data Monitoring**
+
+**Objective**: 
+Monitor data pipelines, access control, and data activities in real-time.
+
+**Actions Taken**:
+
+a)Set up monitoring for the entire data pipeline using Amazon CloudWatch, tracking data ingestion and processing metrics in real time.
+
+b)Configured AWS Lambda to send alerts for unauthorized data access or unexpected activity.
+
+c)Created dashboards in CloudWatch for live monitoring of voting data metrics.
+
+**Tools**:
+
+a)Amazon CloudWatch for monitoring system and data activity.
+
+b)AWS Lambda for automated alerts and responses.
+
+c)Amazon S3 for continuous monitoring of data access logs.
+
+![image](https://github.com/user-attachments/assets/27be9b73-f838-45cd-9498-7f113e18724b)
+
+![image](https://github.com/user-attachments/assets/957b3b78-2268-4129-b31d-6ecff58f1ef9)
+
+![image](https://github.com/user-attachments/assets/4643313a-2d3f-445e-963c-a3e26c82f682)
+
+![image](https://github.com/user-attachments/assets/dc74e674-722c-406f-a0e4-fdd7c6b01f57)
+
+![image](https://github.com/user-attachments/assets/51b01db7-4e23-4880-8ce7-029cfa83b1e8)
+
+
+
