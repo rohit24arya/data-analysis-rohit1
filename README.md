@@ -205,5 +205,5 @@ c)Amazon S3 for continuous monitoring of data access logs.
 
 ![image](https://github.com/user-attachments/assets/51b01db7-4e23-4880-8ce7-029cfa83b1e8)
 
-
+The type of analysis used here is a Diagnostic Analysis. This analysis is designed to diagnose and address issues related to data protection, governance, and monitoring within the data platform. It focuses on identifying potential security vulnerabilities, inefficiencies in data governance, and irregularities in data access or usage patterns
 
