@@ -29,7 +29,7 @@ b)Curated Data Bucket: Stores the cleaned and structured dataset after data tran
 
 ![image](https://github.com/user-attachments/assets/d9450aea-fa4d-4e49-9652-8575a4ad1a56)
 
-Step 4: Dataset Preparation
+**Step 4**: Dataset Preparation
 
 The dataset was prepared for analysis after being downloaded in Excel format. The preparation included:
 
@@ -37,7 +37,7 @@ a)Handling missing values.
 
 b)Ensuring the Voting Decision field is properly structured for analysis.
 
-Step 5: Data Ingestion
+**Step 5**: Data Ingestion
 
 a)The dataset was moved from the local environment into the AWS environment, specifically stored in Amazon S3 for further processing.
 
@@ -45,7 +45,7 @@ b)S3 Bucket used:
 
 s3://council-voting-analysis/raw – Storing the raw voting data for further analysis.
 
-Step 6: Data Storage (S3 Buckets)
+**Step 6**: Data Storage (S3 Buckets)
 
 AWS S3 was used to store the dataset at different stages:
 
@@ -57,7 +57,7 @@ b)Curated Data Bucket: Contains the cleaned and structured data ready for analys
 
 ![image](https://github.com/user-attachments/assets/a47bfe46-babd-499f-9816-682b398faed0)
 
-Step 7: Data Pipeline Design
+**Step 7**: Data Pipeline Design
 
 A data pipeline was designed using AWS services, including:
 
@@ -67,7 +67,7 @@ b)AWS Glue: For running complex ETL (Extract, Transform, Load) jobs on the datas
 
 ![image](https://github.com/user-attachments/assets/806baa2d-a2f1-499a-a43a-2a752540fefe)
 
-Step 8 & 9: Data Cleaning and Structuring (AWS Glue Databrew)
+**Step 8 & 9**: Data Cleaning and Structuring (AWS Glue Databrew)
 
 AWS Glue Databrew was used to clean and explore the dataset. Key cleaning steps included:
 
@@ -85,13 +85,13 @@ d)The cleaned data was stored back into Amazon S3 for further processing.
 
 ![image](https://github.com/user-attachments/assets/686405f3-99af-4320-92c9-d250733d0bf0)
 
-Step 10: Data Pipeline Implementation (AWS Glue)
+**Step 10**: Data Pipeline Implementation (AWS Glue)
 
 AWS Glue was used to implement an ETL pipeline to process the cleaned dataset, applying further transformations like aggregations and filtering based on the analysis goals.
 
 ![image](https://github.com/user-attachments/assets/cf310476-de56-4017-9051-a68a231d0412)
 
-Step 11: Data Analysis (Athena)
+**Step 11**: Data Analysis (Athena)
 
 The cleaned and transformed dataset was analyzed using Amazon Athena:
 
@@ -99,9 +99,9 @@ a)Athena Queries were run to extract key insights from the data.
 
 b)Some key queries included analyzing the number of votes in favor versus against and identifying voting trends over time.
 
-![image](https://github.com/user-attachments/assets/686405f3-99af-4320-92c9-d250733d0bf0)
+![image](https://github.com/user-attachments/assets/e4dfcf5c-5d15-4209-bb34-ab1be0e05d60)
 
-Step 12: Data Publishing
+**Step 12**: Data Publishing
 
 The results were published as part of a final presentation, shared with stakeholders in both image (PNG) and document formats. The final data and visualizations were stored back in S3 for reference.
 Deliverables:
@@ -109,3 +109,6 @@ Deliverables:
 Dataset: Cleaned and structured dataset for 2023-2024 voting records.
 
 This project provides a comprehensive descriptive analysis of the voting decisions made by the Vancouver Council for the years 2023 and 2024. The AWS-based pipeline ensures a smooth and automated process for data ingestion, cleaning, transformation, analysis, and visualization.
+
+![image](https://github.com/user-attachments/assets/eb7675df-bab6-4aff-9bd5-a48822800b3f)
+
