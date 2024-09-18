@@ -1,20 +1,28 @@
 This project focuses on conducting a descriptive analysis of voting decisions made by the Vancouver Council in 2023 and 2024. The goal is to analyze voting patterns, summarize key insights, and visualize the results to inform stakeholders about council voting trends.
 
-Step 1: Data Analytical Question Formulation
-•	Goal: To analyze the voting decisions made in 2023 and 2024.
-•	Parameter: Voting decisions for both years.
+**Step 1**: Data Analytical Question Formulation
+
+a)Goal: To analyze the voting decisions made in 2023 and 2024.
+
+b)Parameter: Voting decisions for both years.
 This analysis provides a descriptive view of the voting records, highlighting trends and providing insights based on the data collected for these years.
 
-Step 2: Data Discovery
-•	The dataset was downloaded from the Vancouver Open Data Portal:
-o	Website: Vancouver Open Data
-o	Data: Council Voting Analysis
+**Step 2**: Data Discovery
+
+The dataset was downloaded from the Vancouver Open Data Portal:
+a)Website: Vancouver Open Data
+
+b)Data: Council Voting Analysis
 The data files were available in Excel format for download.
 
-Step 3: Data Storage Design
-•	AWS S3 Buckets were designed to store and organize the data at various stages of processing:
-o	Raw Data Bucket: Contains the unprocessed data in its original format.
-o	Curated Data Bucket: Stores the cleaned and structured dataset after data transformation.
+**Step 3**: Data Storage Design
+
+AWS S3 Buckets were designed to store and organize the data at various stages of processing:
+a)Raw Data Bucket: Contains the unprocessed data in its original format.
+	
+b)Curated Data Bucket: Stores the cleaned and structured dataset after data transformation.
+
+![image](https://github.com/user-attachments/assets/1862f2c5-7f62-4133-ba69-056e069ff957)
 
 Step 4: Dataset Preparation
 •	The dataset was prepared for analysis after being downloaded in Excel format. The preparation included:
